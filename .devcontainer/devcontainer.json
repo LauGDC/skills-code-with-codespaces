@@ -1,5 +1,5 @@
 {
-    "name": "Codespace for Skills!",
+    "name": "Codespace for Skills!git!",
     "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
     "remoteUser": "codespace",
     "overrideCommand": false
