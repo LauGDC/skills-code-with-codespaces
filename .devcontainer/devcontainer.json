@@ -1,6 +1,18 @@
 {
-    "name": "Codespace for Skills!git!",
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-    "remoteUser": "codespace",
-    "overrideCommand": false
+  "name": "Codespace for Skills!git!",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "remoteUser": "codespace",
+  "overrideCommand": false,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot"
+      ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "codespace.md"
+      ]
+    }
   }
+}
